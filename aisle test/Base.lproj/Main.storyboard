@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Gilroy-ExtraBold.otf">
+            <string>Gilroy-ExtraBold</string>
+        </array>
+        <array key="Gilroy-SemiBold.ttf">
+            <string>Gilroy-SemiBold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="aisle_test" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Notes" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SCp-3b-HKF">
+                                <rect key="frame" x="156" y="35" width="102" height="33"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="102" id="4db-6u-pE5"/>
+                                    <constraint firstAttribute="height" constant="33" id="R8q-sA-y0E"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Gilroy-ExtraBold" family="Gilroy" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Personal message to you" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gTI-O5-MAe">
+                                <rect key="frame" x="99.666666666666686" y="76" width="215" height="21.666666666666671"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="215" id="3wq-wz-xIp"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Gilroy-SemiBold" family="Gilroy" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kzp-pV-Wpm">
+                                <rect key="frame" x="0.0" y="665" width="414" height="71"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nRh-dY-t1g">
+                                        <rect key="frame" x="64" y="20" width="22" height="24"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="22" id="onU-h6-z40"/>
+                                            <constraint firstAttribute="height" constant="24" id="vNp-7d-gek"/>
+                                        </constraints>
+                                        <state key="normal" image="discover"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4ko-g0-MPR">
+                                        <rect key="frame" x="328" y="20" width="22" height="24"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="22" id="apS-zt-1RU"/>
+                                            <constraint firstAttribute="height" constant="24" id="skH-7H-2av"/>
+                                        </constraints>
+                                        <state key="normal" image="profile"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vvm-fH-fhb">
+                                        <rect key="frame" x="156" y="20" width="22" height="24"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="24" id="3Qx-l2-1Y0"/>
+                                            <constraint firstAttribute="width" constant="22" id="Kmn-re-oVV"/>
+                                        </constraints>
+                                        <state key="normal" image="messag"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a1S-yS-61h">
+                                        <rect key="frame" x="236" y="20" width="22" height="24"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="24" id="Cjc-j6-53E"/>
+                                            <constraint firstAttribute="width" constant="22" id="DiL-aK-IgO"/>
+                                        </constraints>
+                                        <state key="normal" image="chat"/>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Discover" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6hn-VG-fLp">
+                                        <rect key="frame" x="51" y="46" width="48" height="12"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="48" id="5Tp-7O-HKf"/>
+                                            <constraint firstAttribute="height" constant="12" id="tSX-fW-aYu"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Gilroy-SemiBold" family="Gilroy" pointSize="12"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Notes" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tyu-xq-oXC">
+                                        <rect key="frame" x="143" y="46" width="48" height="12"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="12" id="Y27-Nh-EhB"/>
+                                            <constraint firstAttribute="width" constant="48" id="fAG-2S-c7U"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Gilroy-SemiBold" family="Gilroy" pointSize="12"/>
+                                        <color key="textColor" systemColor="systemGrayColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Matches" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5LA-1E-bAO">
+                                        <rect key="frame" x="223" y="46" width="48" height="12"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="12" id="DbY-3j-5o8"/>
+                                            <constraint firstAttribute="width" constant="48" id="YbE-CX-vfe"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Gilroy-SemiBold" family="Gilroy" pointSize="12"/>
+                                        <color key="textColor" systemColor="systemGrayColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Profile" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gAb-iR-RQh">
+                                        <rect key="frame" x="315" y="46" width="48" height="12"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="12" id="RrK-zi-TgI"/>
+                                            <constraint firstAttribute="width" constant="48" id="dk0-AH-gY1"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Gilroy-SemiBold" family="Gilroy" pointSize="12"/>
+                                        <color key="textColor" systemColor="systemGrayColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="9" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BuI-x7-Lu1">
+                                        <rect key="frame" x="174" y="18" width="15" height="15"/>
+                                        <color key="backgroundColor" red="0.60392156862745094" green="0.21176470588235294" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="15" id="MCE-XY-Ajv"/>
+                                            <constraint firstAttribute="height" constant="15" id="aSC-2X-bUp"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Gilroy-SemiBold" family="Gilroy" pointSize="8"/>
+                                        <color key="textColor" red="0.99607843139999996" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="50+" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xM1-hg-xht">
+                                        <rect key="frame" x="253" y="18" width="15" height="15"/>
+                                        <color key="backgroundColor" red="0.60392156860000001" green="0.21176470589999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="15" id="8mK-We-p4Z"/>
+                                            <constraint firstAttribute="height" constant="15" id="ftT-BL-FIG"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Gilroy-SemiBold" family="Gilroy" pointSize="8"/>
+                                        <color key="textColor" red="0.99607843139999996" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="tyu-xq-oXC" firstAttribute="top" secondItem="BuI-x7-Lu1" secondAttribute="bottom" constant="13" id="3T2-Yp-dfk"/>
+                                    <constraint firstItem="5LA-1E-bAO" firstAttribute="centerX" secondItem="a1S-yS-61h" secondAttribute="centerX" id="3xE-Hv-QLp"/>
+                                    <constraint firstItem="6hn-VG-fLp" firstAttribute="top" secondItem="nRh-dY-t1g" secondAttribute="bottom" constant="2" id="4Dq-m8-lmn"/>
+                                    <constraint firstItem="nRh-dY-t1g" firstAttribute="leading" secondItem="kzp-pV-Wpm" secondAttribute="leading" constant="64" id="738-j5-RbC"/>
+                                    <constraint firstAttribute="trailing" secondItem="4ko-g0-MPR" secondAttribute="trailing" constant="64" id="7VP-Pa-Uuf"/>
+                                    <constraint firstItem="BuI-x7-Lu1" firstAttribute="leading" secondItem="Vvm-fH-fhb" secondAttribute="trailing" constant="-4" id="8JI-tU-zCn"/>
+                                    <constraint firstItem="Vvm-fH-fhb" firstAttribute="leading" secondItem="nRh-dY-t1g" secondAttribute="trailing" constant="70" id="GoG-ab-iO2"/>
+                                    <constraint firstItem="tyu-xq-oXC" firstAttribute="centerX" secondItem="Vvm-fH-fhb" secondAttribute="centerX" id="ICh-wg-5Mr"/>
+                                    <constraint firstItem="5LA-1E-bAO" firstAttribute="top" secondItem="xM1-hg-xht" secondAttribute="bottom" constant="13" id="MUa-Gu-pFm"/>
+                                    <constraint firstItem="Vvm-fH-fhb" firstAttribute="top" secondItem="kzp-pV-Wpm" secondAttribute="top" constant="20" id="TM4-7q-gCg"/>
+                                    <constraint firstItem="gAb-iR-RQh" firstAttribute="top" secondItem="4ko-g0-MPR" secondAttribute="bottom" constant="2" id="Z5m-1e-N30"/>
+                                    <constraint firstItem="tyu-xq-oXC" firstAttribute="top" secondItem="Vvm-fH-fhb" secondAttribute="bottom" constant="2" id="dYS-Ni-wxV"/>
+                                    <constraint firstItem="a1S-yS-61h" firstAttribute="top" secondItem="kzp-pV-Wpm" secondAttribute="top" constant="20" id="f8l-KG-6DV"/>
+                                    <constraint firstItem="nRh-dY-t1g" firstAttribute="top" secondItem="kzp-pV-Wpm" secondAttribute="top" constant="20" id="iLP-l6-g7y"/>
+                                    <constraint firstItem="6hn-VG-fLp" firstAttribute="centerX" secondItem="nRh-dY-t1g" secondAttribute="centerX" id="ixg-pb-x6P"/>
+                                    <constraint firstItem="4ko-g0-MPR" firstAttribute="leading" secondItem="a1S-yS-61h" secondAttribute="trailing" constant="70" id="jGb-JC-CQp"/>
+                                    <constraint firstItem="gAb-iR-RQh" firstAttribute="centerX" secondItem="4ko-g0-MPR" secondAttribute="centerX" id="jmX-ci-aON"/>
+                                    <constraint firstItem="5LA-1E-bAO" firstAttribute="top" secondItem="a1S-yS-61h" secondAttribute="bottom" constant="2" id="ktl-R4-SJB"/>
+                                    <constraint firstItem="4ko-g0-MPR" firstAttribute="top" secondItem="kzp-pV-Wpm" secondAttribute="top" constant="20" id="mgP-1l-W3h"/>
+                                    <constraint firstItem="xM1-hg-xht" firstAttribute="leading" secondItem="a1S-yS-61h" secondAttribute="trailing" constant="-5" id="slG-Lo-Wtf"/>
+                                    <constraint firstAttribute="height" constant="71" id="wy8-sJ-XM3"/>
+                                </constraints>
+                            </view>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="photo_1" translatesAutoresizingMaskIntoConstraints="NO" id="cMf-e6-syy">
+                                <rect key="frame" x="20" y="112.66666666666669" width="374" height="244"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="374" id="G1Q-VL-P7A"/>
+                                    <constraint firstAttribute="height" constant="244" id="bKm-FT-flv"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="photo_2" translatesAutoresizingMaskIntoConstraints="NO" id="kUa-zI-zLM">
+                                <rect key="frame" x="20" y="447.66666666666674" width="176" height="209"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="176" id="dCk-Bg-hYy"/>
+                                    <constraint firstAttribute="height" constant="209" id="qxg-v9-uN0"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="photo_3" translatesAutoresizingMaskIntoConstraints="NO" id="l1N-rm-Rye">
+                                <rect key="frame" x="218" y="447.66666666666674" width="176" height="209"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="176" id="D8c-gq-OuM"/>
+                                    <constraint firstAttribute="height" constant="209" id="FHk-v6-ZBm"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Interested in you" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eSe-2R-9rj">
+                                <rect key="frame" x="20" y="361.66666666666669" width="230" height="27"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="27" id="LB8-kG-Bbd"/>
+                                    <constraint firstAttribute="width" constant="230" id="b6i-x3-fNO"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Gilroy-ExtraBold" family="Gilroy" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Premium member can view all thier likes at once" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ijF-AD-4sp">
+                                <rect key="frame" x="20" y="393.66666666666669" width="230" height="43"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="43" id="69e-gE-TFn"/>
+                                    <constraint firstAttribute="width" constant="230" id="u8R-HD-C9Z"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Gilroy-SemiBold" family="Gilroy" pointSize="17"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VUP-Us-wVs">
+                                <rect key="frame" x="281" y="378.66666666666669" width="113" height="50"/>
+                                <color key="backgroundColor" red="0.99607843137254903" green="0.89803921568627454" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="5f4-ak-rMh"/>
+                                    <constraint firstAttribute="width" constant="113" id="ElX-WU-89H"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Gilroy-ExtraBold" family="Gilroy" pointSize="17"/>
+                                <state key="normal" title="Upgrade">
+                                    <color key="titleColor" systemColor="labelColor"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap to review 50+ notes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Kt-3G-Xt8">
+                                <rect key="frame" x="36" y="326.66666666666669" width="192" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="30F-5w-3za"/>
+                                    <constraint firstAttribute="width" constant="192" id="R0J-4p-1T2"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Gilroy-SemiBold" family="Gilroy" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Meena, 23" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hFr-fr-7kB">
+                                <rect key="frame" x="36" y="303.66666666666669" width="106" height="22"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="22" id="PzA-i9-drQ"/>
+                                    <constraint firstAttribute="width" constant="106" id="Two-Xh-yh7"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Gilroy-ExtraBold" family="Gilroy" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Teena" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uxU-D5-Yjm">
+                                <rect key="frame" x="36" y="628.66666666666663" width="51" height="22"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="51" id="JyB-L9-Gca"/>
+                                    <constraint firstAttribute="height" constant="22" id="L0R-qZ-2CG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Gilroy-ExtraBold" family="Gilroy" pointSize="16"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Reena" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aoZ-AK-Pmz">
+                                <rect key="frame" x="232" y="628.66666666666663" width="51" height="22"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="22" id="XYR-IK-1b8"/>
+                                    <constraint firstAttribute="width" constant="51" id="qTe-EC-8N1"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Gilroy-ExtraBold" family="Gilroy" pointSize="16"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="gTI-O5-MAe" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1nO-Jr-PVt"/>
+                            <constraint firstItem="eSe-2R-9rj" firstAttribute="top" secondItem="cMf-e6-syy" secondAttribute="bottom" constant="5" id="3RL-eY-3Fv"/>
+                            <constraint firstItem="kUa-zI-zLM" firstAttribute="top" secondItem="ijF-AD-4sp" secondAttribute="bottom" constant="11" id="4DQ-7b-pmZ"/>
+                            <constraint firstItem="l1N-rm-Rye" firstAttribute="leading" secondItem="aoZ-AK-Pmz" secondAttribute="trailing" constant="-65" id="7s0-Yh-rzH"/>
+                            <constraint firstItem="l1N-rm-Rye" firstAttribute="top" secondItem="kUa-zI-zLM" secondAttribute="top" id="80Y-Qi-cka"/>
+                            <constraint firstItem="VUP-Us-wVs" firstAttribute="trailing" secondItem="cMf-e6-syy" secondAttribute="trailing" id="8fL-ny-eB4"/>
+                            <constraint firstItem="cMf-e6-syy" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="AGN-c0-0cW"/>
+                            <constraint firstItem="8Kt-3G-Xt8" firstAttribute="top" secondItem="hFr-fr-7kB" secondAttribute="bottom" constant="1" id="Ht0-Qf-T1A"/>
+                            <constraint firstItem="cMf-e6-syy" firstAttribute="top" secondItem="gTI-O5-MAe" secondAttribute="bottom" constant="15" id="IcQ-LG-eVp"/>
+                            <constraint firstItem="SCp-3b-HKF" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="35" id="OYf-Zu-2Om"/>
+                            <constraint firstItem="kzp-pV-Wpm" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="Ppo-8f-rwS"/>
+                            <constraint firstItem="l1N-rm-Rye" firstAttribute="leading" secondItem="kUa-zI-zLM" secondAttribute="trailing" constant="22" id="TZI-OK-yd7"/>
+                            <constraint firstItem="ijF-AD-4sp" firstAttribute="leading" secondItem="eSe-2R-9rj" secondAttribute="leading" id="Tfs-0G-8fy"/>
+                            <constraint firstItem="kUa-zI-zLM" firstAttribute="baseline" secondItem="uxU-D5-Yjm" secondAttribute="firstBaseline" constant="12.666666666666666" symbolType="layoutAnchor" id="a3q-zV-HAp"/>
+                            <constraint firstItem="kzp-pV-Wpm" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="cAU-bp-OJs"/>
+                            <constraint firstItem="gTI-O5-MAe" firstAttribute="top" secondItem="SCp-3b-HKF" secondAttribute="bottom" constant="8" id="cfJ-fJ-hpn"/>
+                            <constraint firstItem="kzp-pV-Wpm" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="gqF-D2-zZ4"/>
+                            <constraint firstItem="hFr-fr-7kB" firstAttribute="leading" secondItem="8Kt-3G-Xt8" secondAttribute="leading" id="jmj-MV-DYN"/>
+                            <constraint firstItem="ijF-AD-4sp" firstAttribute="top" secondItem="eSe-2R-9rj" secondAttribute="bottom" constant="5" id="kYo-Uj-Zlq"/>
+                            <constraint firstItem="8Kt-3G-Xt8" firstAttribute="bottom" secondItem="cMf-e6-syy" secondAttribute="bottom" id="ktf-9L-OvN"/>
+                            <constraint firstItem="l1N-rm-Rye" firstAttribute="top" secondItem="VUP-Us-wVs" secondAttribute="bottom" constant="19" id="kz9-zD-UuX"/>
+                            <constraint firstItem="8Kt-3G-Xt8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="36" id="lYq-7s-xSG"/>
+                            <constraint firstItem="eSe-2R-9rj" firstAttribute="leading" secondItem="cMf-e6-syy" secondAttribute="leading" id="lwa-la-afW"/>
+                            <constraint firstItem="kUa-zI-zLM" firstAttribute="leading" secondItem="uxU-D5-Yjm" secondAttribute="trailing" constant="-67" id="nGa-yJ-eaY"/>
+                            <constraint firstItem="l1N-rm-Rye" firstAttribute="trailing" secondItem="VUP-Us-wVs" secondAttribute="trailing" id="nXx-iB-ZvB"/>
+                            <constraint firstItem="l1N-rm-Rye" firstAttribute="baseline" secondItem="aoZ-AK-Pmz" secondAttribute="firstBaseline" constant="12.666666666666666" symbolType="layoutAnchor" id="nfx-OB-IYc"/>
+                            <constraint firstItem="SCp-3b-HKF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xAE-8Y-8UD"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="count1" destination="BuI-x7-Lu1" id="cKk-D6-50e"/>
+                        <outlet property="count2" destination="xM1-hg-xht" id="dLD-ZX-jvn"/>
+                        <outlet property="mainImage" destination="cMf-e6-syy" id="g76-hv-gf3"/>
+                        <outlet property="subImg1" destination="kUa-zI-zLM" id="hIV-Rl-nj3"/>
+                        <outlet property="subImg2" destination="l1N-rm-Rye" id="6R7-rs-otr"/>
+                        <outlet property="upgradebtn" destination="VUP-Us-wVs" id="rTG-YB-Pxu"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="77.445652173913047"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="chat" width="29" height="19"/>
+        <image name="discover" width="19" height="20"/>
+        <image name="messag" width="25" height="18"/>
+        <image name="photo_1" width="383" height="572"/>
+        <image name="photo_2" width="395" height="263"/>
+        <image name="photo_3" width="223" height="334"/>
+        <image name="profile" width="19" height="22"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGrayColor">
+            <color red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
